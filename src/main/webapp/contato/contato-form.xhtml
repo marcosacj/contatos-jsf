@@ -18,11 +18,11 @@
 					<p:outputLabel for="nome" value="Nome: " />
 					<p:inputText id="nome" value="#{contatoController.contato.nome}" />
 					
-					<p:outputLabel for="telefone" value="Telefone: " />
-					<p:inputText id="telefone" value="#{contatoController.contato.telefone}" />
-					
 					<p:outputLabel for="email" value="E-mail: " />
 					<p:inputText id="email" value="#{contatoController.contato.email}" />
+					
+					<p:outputLabel for="telefone" value="Telefone: " />
+					<p:inputText id="telefone" value="#{contatoController.contato.telefone}" />
 					
 					<h:commandButton value="Cadastrar" action="#{contatoController.save}" />
 					

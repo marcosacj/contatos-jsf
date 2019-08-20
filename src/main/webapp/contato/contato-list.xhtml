@@ -27,13 +27,18 @@
 					</p:column>
 
 					<p:column>
+						<f:facet name="header">Email</f:facet>
+						<h:outputText value="#{contato.email}" />
+					</p:column>
+
+					<p:column>
 						<f:facet name="header">Telefone</f:facet>
 						<h:outputText value="#{contato.telefone}" />
 					</p:column>
 
 					<p:column>
-						<f:facet name="header">Email</f:facet>
-						<h:outputText value="#{contato.email}" />
+						<f:facet name="header">Ativo</f:facet>
+						<h:outputText value="#{contato.ativo}" />
 					</p:column>
 
 					<p:column>
