@@ -37,7 +37,7 @@ public class ListaContatoController {
 	}
 	
 	public String delete(Contato contato) {
-		contatoRepository.delete( (long) contato.getId() );
+		contatoRepository.delete( contato );
 		loadData();
 		return null;
 	}
