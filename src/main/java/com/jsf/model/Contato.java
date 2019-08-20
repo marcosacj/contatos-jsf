@@ -13,7 +13,7 @@ import javax.persistence.Table;
 public class Contato {
 	
 	@Id
-	@SequenceGenerator(name = "seq_contato", initialValue = 1, allocationSize = 1)
+	@SequenceGenerator(name = "seq_contato", initialValue = 10, allocationSize = 1)
 	@GeneratedValue(strategy = GenerationType.AUTO, generator = "seq_contato")
 	private Integer id;
 	
